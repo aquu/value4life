@@ -15,14 +15,15 @@ function Home() {
   const handleSubmit = (e) => {
     e.preventDefault();
     saveBudget(budget);
-    navigate('/camera')
+    navigate('/camera');
   }
 
   return (
     <div>
-      <h1>Welcome!</h1>
-      <p>Set your monthly budget:</p>
-      <form onSubmit={handleSubmit}>
+      <h1 className="main-header">Welcome!</h1>
+      
+      <form onSubmit={handleSubmit} className="welcome-form">
+        <p>Set your monthly budget:</p>
         <input 
           placeholder={1000}
           type="number" 
@@ -31,6 +32,14 @@ function Home() {
         />
         <input type="submit" value="Continue" />
       </form>
+
+      <div>
+        <h1>Existing monthly expenses</h1>
+        <ul style={{listStyle: 'none'}}>
+            <li>Student lunches - 52€/month</li>
+            <li>Spotify - 10€/month</li>
+        </ul>
+      </div>
     </div>
     
   )

@@ -1,10 +1,15 @@
-# value4life
-Junction 2019 app
+# value4life - *Check Before Checkout!*
+Junction 2019 app for [Improving your financial future](https://2019.hackjunction.com/challenges/improving-your-financial-future) challenge by Blackrock
 
-What is the metric for cost-per-lifetime?
-Student meals per day/week/netflix/ ?
+![value4life screenshot](/value4life.png)
 
-# Data
+
+# Planning
+
+### What is the metric for cost-per-lifetime?
+### Student meals per day/week/netflix/ ?
+
+## Data
 - Receipts
 - Warranty & Mainentance
 - Resell value
@@ -12,11 +17,11 @@ Student meals per day/week/netflix/ ?
 Pick one item:
 Electronics, mobile device, car, furniture
 
-# User interface & UX
+## User interface & UX
 - Mobile app / PWA
 - Browser extension
 
-Tieto intro song
+Name for our team: Tieto intro song
 
 
 # How to get backend up and running
